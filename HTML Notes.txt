@@ -1,0 +1,110 @@
+<!DOCTYPE html> == Doc Type. Tells the program that this is an HTML5 page
+<html lang="en"></html> == 
+<head> == important meta-information about our webpages, and stuff required for our webpages to render correctly in the browser.
+	<meta charset="utf-8"> == ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+	<title></title> == give webpages a human-readable title which is displayed in our webpage’s browser tab. Otherwise it will default to index.html
+<h1></h1> == Headings
+<p></p> == Paragraphs
+<em></em> == Italics (Emphasized text)
+<i></i> == Italics (Normal)
+<strong></strong> == Bold with importance put on it by browsers/readers
+<b></b> == bold text
+<del></del> == strike through words
+<ins></ins> == underline
+<sub></sub> == Subscript
+<sup></sup> == Superscript
+<!-- --> == comment
+
+<ul></ul == unorder list (bullet points)
+<ol></ol> == ordered list (numbers)
+<li></li> == before each item in the list
+
+<a></a> == Anchor == used to give links
+<a href="https://google.com">click me</a> === makes the anchor called "Click me" and assigns it a hypper link
+Protocol://domain.path == ABSOLUTE link
+folder/filename.html == Relative link === doesn't include domain as you only link internal pages
+./folder/filename.html == search in the relative directory
+../ == Parent folder
+<img src="" alt="description of the image"> == this shows if the image doesn't load or for visually impared users
+
+Selector {
+	Property: Value;
+}
+
+Selectors === Referse to the HTML elements to which CSS rules apply
+* === Universal Selector
+Type Selector === <div> === affects all tags that start with div
+Class slector === <div class="alert-text"> ===  Create class that can be called and edited
+.alert-text {
+  color: red;
+}
+
+ID Selector === <div id="title"> === Same as Class but uses # when calling. Can only be used once per element and page
+#title {
+  background-color: red;
+}
+
+Grouping Selector === Group the shared attributes and then state the unique ones
+
+	.read,
+	.unread {
+		color: white;
+		background-color: black;
+	}
+
+	.read {
+		/* several unique declarations */
+	}
+
+	.unread {
+		/* several unique declarations */
+	}
+	
+Chaining Selectors === .subsection.header == The selector of subesction as well as header
+	.subsection.header {
+		color: red;
+	}
+
+Decendant combinator === The only selector that gets chosen is the one which is nested in the first named one
+	/* styles.css */
+
+	.ancestor .contents {
+		/* some declarations */
+	}
+	
+Properties:
+	color
+	background-color
+	font-family === Prefered to least prefered == font-family: "DejaVu Sans", sans-serif;
+	font-size
+	font-weight == Bold or 100... 900
+	text-align == center
+	img height or width == adjust image dimensions. Put on auto and change one to keep ratio
+
+Specificity === Most specific takes affect
+	inline style == MOST
+	ID Selectors
+	Class Selector
+	Type Selectors == LEAST
+
+Inheritance === Properties that are inherited by elements children
+
+Adding CSS to HTML:
+	1. External
+		<head>
+			<link rel="stylesheet" href="styles.css">
+		</head>
+
+	2. Internal
+		<head>
+			<style>
+				div {}
+			</syle>
+		</head>
+
+	3. Inline
+		<body>
+			<div style ="..."></div>
+		</body>
+
+box-sizing: border-box === Takes space from the content box to count towards the overall width
