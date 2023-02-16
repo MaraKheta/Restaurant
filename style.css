@@ -31,7 +31,9 @@ a:hover {
     color: white;
 }
 
-.chocolateTitle {
+.chocolateTitle,
+.figTitle,
+.chickenTitle {
     box-sizing: border-box;
     text-align: center;
     border: 2px solid;
@@ -39,4 +41,16 @@ a:hover {
     margin: 10px auto 30px;
     height: auto;
     width: 550px;
+}
+
+.figTitle {
+    height: auto;
+    width: 200px;
+}
+
+.button {
+    appearance: button;
+    margin: 20px;
+    border: 5px solid red;
+    padding: 5px solid  blue;
 }
