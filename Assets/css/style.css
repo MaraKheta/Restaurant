@@ -40,3 +40,35 @@ a:hover {
     height: auto;
     width: 550px;
 }
+
+.flex-container, .class1, .class2, .class3 {
+    display: flex;
+    border: 3px solid orange;
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.flex-container {
+    height: 400px;
+    width: auto;
+    flex-direction: column;
+    margin: 3px;
+}
+
+.flex-container div {
+    height: auto;
+    width: auto;
+}
+
+.class1, .class2, .class3 {
+    flex-direction: row;
+    margin: 12px;
+}
+
+.class1 div {
+    display: flex;
+    border: 3px solid salmon;
+    padding: 4px;
+    flex: 1;
+}

@@ -108,3 +108,14 @@ Adding CSS to HTML:
 		</body>
 
 box-sizing: border-box === Takes space from the content box to count towards the overall width
+
+display: flex === Makes the container a flex box
+justify-text: centre === Align the box horizontally! flex-start, flex-end, space-around, space-between
+align-items: centre === Align the child items within container, vertically! center, flex-start (top), flex-end (bottom), stretch, baseline
+flex-wrap: wrap === wrap child items within container. Otherwise it will spill out
+flex-direction: row === lay them horizontally or vertically (Row or Collumn)
+order:1 === puts the child item in position 1 (Horizontal Control). Overrides other order commands
+align-self: centre === change the position of one child item. (Veritcal Control). Overrides other order commands
+flex:1 === Horizontal growth rate. 2 will make the item twice as larger as the 1.
+flex: initial === Gives the item the original width
+margin:auto === Will eat all the extra space
