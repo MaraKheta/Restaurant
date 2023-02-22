@@ -97,15 +97,11 @@ a:hover {
 }
   
 .content {
-    float: left;
-    width: 650px;
-    height: 500px;
-    background-color: #F5CF8E;    /* Yellow */
+    padding: 20px;
 }
   
 .footer {
-    clear: both;
-    height: 200px;
+    overflow: hidden;
     background-color: #D6E9FE;    /* Light blue */
 }
 
@@ -114,10 +110,52 @@ a:hover {
     background-color: #416a93;
 }
 
-.column {
+.column, .column1 {
     float: left;
-    width: 30%;
+    width: 31%;
     margin: 20px 1.5%;
     height: 160px;
     background-color: #B2D6FF;
+}
+
+.article-image {
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    float:left;
+    border: 2px solid red;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+.username {
+    /* float: left; */
+    margin: 10px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+.comment {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.column1{
+    overflow: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: red;
+    }
 }
