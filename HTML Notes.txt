@@ -119,3 +119,7 @@ align-self: centre === change the position of one child item. (Veritcal Control)
 flex:1 === Horizontal growth rate. 2 will make the item twice as larger as the 1.
 flex: initial === Gives the item the original width
 margin:auto === Will eat all the extra space
+
+Float: left === aligns the box to the left. It allows the rest of the content to flow around it (left, right, none, "margins: 0 auto" for centre)
+Clear:both === tell it to ignore floats before it (left, right or both)
+Overflow:hidden === look at the width of the floats inside
