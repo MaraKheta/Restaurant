@@ -1,6 +1,32 @@
+.home-banner {
+    margin-bottom: 5%;
+    border-bottom: 2px solid black;
+    float: left;
+}
+
 body {
     background-color: rgb(47, 47, 47);
     color: white;
+}
+
+.home-menu {
+    clear: both;
+}
+
+.logo {
+    /* float: left; */
+    /* width: 200px; */
+    margin-left: 20px;
+}
+
+.banner-box1 {
+    /* border: 2px solid red; */
+    float: left;
+}
+
+.banner-box2 {
+    /* border: 2px solid orange; */
+    float: left;
 }
 
 .figBody {
@@ -158,4 +184,16 @@ p {
     body {
         background-color: red;
     }
+}
+
+.chickenTitleBox {
+    border: 2px solid red;
+}
+
+.chickenImageBox {
+    border: 2px solid orange;
+}
+
+.chickenTitleBox h1 {
+    float: left;
 }
