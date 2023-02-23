@@ -1,7 +1,28 @@
+/* .styling-top-left {
+    width: 100px;
+    height:100px;
+    box-shadow: -5px 5px 5px black;
+    float:left;
+} */
+
 .home-banner {
+    width: 100vw;
     margin-bottom: 5%;
     border-bottom: 2px solid black;
     float: left;
+    box-shadow: 5px 5px 5px black;
+}
+
+.bannerContent {
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    padding-left: 20vw;
+}
+
+.home-title {
+    margin-top: 50%;
+    text-shadow: 5px 5px black;
 }
 
 body {
@@ -22,6 +43,7 @@ body {
 .banner-box1 {
     /* border: 2px solid red; */
     float: left;
+    height: 25%;
 }
 
 .banner-box2 {
@@ -186,14 +208,19 @@ p {
     }
 }
 
-.chickenTitleBox {
-    border: 2px solid red;
-}
-
 .chickenImageBox {
     border: 2px solid orange;
+    float: left;
+    margin-left: 10px;
+    margin-left: 10vw;
 }
 
-.chickenTitleBox h1 {
+.chickenTitleBox {
     float: left;
+} 
+
+.chickenContent {
+    /* border: 2px solid purple; */
+    clear: both;
+    padding: 10px;
 }
