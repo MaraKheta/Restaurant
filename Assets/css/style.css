@@ -1,3 +1,12 @@
+
+@media screen and (max-width: 400px) {
+
+    body.main-page {
+        background-color: blue;
+    }
+}
+
+
 /* .styling-top-left {
     width: 100px;
     height:100px;
@@ -27,6 +36,7 @@
 
 body {
     background-color: rgb(47, 47, 47);
+    background-color: red;
     color: white;
 }
 
@@ -202,11 +212,16 @@ p {
     overflow: auto;
 }
 
-@media only screen and (max-width: 400px) {
+
+/* 
+@media screen and (min-width: 400px) {
+
     body {
-        background-color: red;
+        background-color: blue;
     }
-}
+} */
+
+
 
 .chickenImageBox {
     border: 2px solid orange;
