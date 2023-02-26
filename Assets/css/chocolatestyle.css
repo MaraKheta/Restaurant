@@ -1,0 +1,71 @@
+/* All generic styling */
+
+body {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: rgb(121, 0, 0);
+    
+}
+
+/* Specific attributes */
+/* Login Section */
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid darkcyan; */
+}
+
+.login-section {
+    display: flex;
+    width: 1250px;
+    justify-content: center;
+    font-size: large;
+    padding: 20px;
+    /* border: 2px solid orange; */
+}
+
+.date {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+
+/* Other page section */
+.chocolateBody {
+    background-color: indianred;
+    color: rgb(0, 0, 0);
+    border: 2px solid silver;
+}
+
+.chocolateLink,.figLink,.chickenLink {
+    color: white;
+}
+
+.chocolateTitle {
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px auto 30px;
+    height: auto;
+    width: 550px;
+}
