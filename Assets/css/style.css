@@ -1,79 +1,8 @@
-
-@media screen and (max-width: 400px) {
-
-    body.main-page {
-        background-color: blue;
-    }
-}
-
-
-/* .styling-top-left {
-    width: 100px;
-    height:100px;
-    box-shadow: -5px 5px 5px black;
-    float:left;
-} */
-
-.home-banner {
-    width: 100vw;
-    margin-bottom: 5%;
-    border-bottom: 2px solid black;
-    float: left;
-    box-shadow: 5px 5px 5px black;
-}
-
-.bannerContent {
-    margin: 0 auto;
-    overflow: hidden;
-    /* border: 2px solid red; */
-    padding-left: 20vw;
-}
-
-.home-title {
-    margin-top: 50%;
-    text-shadow: 5px 5px black;
-}
+/* All generic styling */
 
 body {
     background-color: rgb(47, 47, 47);
-    background-color: red;
     color: white;
-}
-
-.home-menu {
-    clear: both;
-}
-
-.logo {
-    /* float: left; */
-    /* width: 200px; */
-    margin-left: 20px;
-}
-
-.banner-box1 {
-    /* border: 2px solid red; */
-    float: left;
-    height: 25%;
-}
-
-.banner-box2 {
-    /* border: 2px solid orange; */
-    float: left;
-}
-
-.figBody {
-    background-color:slategrey;
-    color: black;
-}
-
-.chocolateBody {
-    background-color: indianred;
-    color: rgb(0, 0, 0);
-}
-
-.chickenBody {
-    background-color: rgb(82, 79, 79);
-    color: rgb(180, 180, 180);
 }
 
 a {
@@ -85,50 +14,87 @@ a:hover {
     
 }
 
-.chocolateLink,.figLink,.chickenLink {
-    color: white;
-}
-
-.chocolateTitle {
-    box-sizing: border-box;
-    text-align: center;
-    border: 2px solid;
-    padding: 5px;
-    margin: 10px auto 30px;
-    height: auto;
-    width: 550px;
-}
-
-.flex-container, .class1, .class2, .class3 {
+/* Specific attributes */
+/* Login Section */
+.login-container {
     display: flex;
-    border: 3px solid orange;
+    justify-content: space-around;
+    /* border: 2px solid darkcyan; */
+}
+
+.login-section {
+    display: flex;
+    width: 1250px;
+    justify-content: center;
+    font-size: large;
+    padding: 20px;
+    /* border: 2px solid orange; */
+}
+
+.date {
+    display: flex;
     flex: 1;
-    padding: 10px;
-    
+    justify-content: flex-start;
 }
 
-.flex-container {
-    height: 400px;
-    width: auto;
-    flex-direction: column;
-    margin: 3px;
+.links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
 }
 
-.flex-container div {
-    height: auto;
-    width: auto;
+.login {
+    margin-left: 20px;
 }
 
-.class1, .class2, .class3 {
+/* Image Section */
+.home-banner {
+    display: flex;
     flex-direction: row;
-    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px black;
+    padding-bottom: 5px;
+    /* border: 2px solid red; */
 }
 
-.class1 div {
+.home-title {
+    text-shadow: 5px 5px black;
+    /* border: 2px solid purple; */
+}
+
+.logo {
+    margin-left: 20px;
+    /* border: 2px solid lime; */
+}
+
+.banner-box1 {
     display: flex;
-    border: 3px solid salmon;
-    padding: 4px;
-    flex: 1;
+    align-items: center;
+    padding: 20px;
+    /* border: 2px solid blue; */
+}
+
+.banner-box2 {
+    float: left;
+    /* border: 2px solid  lightskyblue; */
+}
+
+/* Other pages section */
+.home-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    /* border: 2px solid green; */
+}
+
+.space2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 1000px;
+    /* border: 2px solid lightgoldenrodyellow; */
 }
 
  body div {
@@ -163,27 +129,6 @@ a:hover {
     background-color: #D6E9FE;    /* Light blue */
 }
 
-.container {
-    overflow: hidden;
-    background-color: #416a93;
-}
-
-.column, .column1 {
-    float: left;
-    width: 31%;
-    margin: 20px 1.5%;
-    height: 160px;
-    background-color: #B2D6FF;
-}
-
-.article-image {
-    float: left;
-    width: 120px;
-    height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
 p {
     margin-bottom: 20px;
 }
@@ -212,30 +157,8 @@ p {
     overflow: auto;
 }
 
-
-/* 
-@media screen and (min-width: 400px) {
-
+@media only screen and (max-width: 400px) {
     body {
-        background-color: blue;
+        background-color: red;
     }
-} */
-
-
-
-.chickenImageBox {
-    border: 2px solid orange;
-    float: left;
-    margin-left: 10px;
-    margin-left: 10vw;
-}
-
-.chickenTitleBox {
-    float: left;
-} 
-
-.chickenContent {
-    /* border: 2px solid purple; */
-    clear: both;
-    padding: 10px;
 }

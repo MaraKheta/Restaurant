@@ -1,0 +1,101 @@
+/* All generic styling */
+
+body {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: rgb(121, 0, 0);
+    
+}
+
+/* Specific attributes */
+/* Login Section */
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid darkcyan;
+}
+
+.login-section {
+    display: flex;
+    width: 1250px;
+    justify-content: center;
+    font-size: large;
+    padding: 20px;
+    /* border: 2px solid orange; */
+}
+
+.date {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+
+/* Other page section */
+/* .chocolateBody {
+    background-color: indianred;
+    color: rgb(0, 0, 0);
+    border: 2px solid silver;
+} */
+
+.chocolateTitle {
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid;
+    padding: 5px;
+    margin: 30px auto;
+    width: 550px;
+}
+
+.chocolatelogo {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    border: 2px solid green;
+}
+
+.description, .description .box1, .description .box2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1000px;
+    border: 2px solid lime;
+}
+
+.description {
+    flex-direction: column;
+}
+
+
+.ingredients {
+    margin-left: 200px;
+    border: 2px solid rgb(0, 69, 0);
+}
+
+.steps {
+    margin-left: 200px;
+    border: 2px solid rgb(219, 255, 166);
+}
+
+.chocolateLink,.figLink,.chickenLink {
+    margin-left: 200px;
+    color: white;
+}

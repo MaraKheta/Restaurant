@@ -1,0 +1,44 @@
+/* All generic styling */
+
+body {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: rgb(121, 0, 0);
+    
+}
+
+/* Specific attributes */
+
+.chickenBody {
+    background-color: rgb(82, 79, 79);
+    color: rgb(180, 180, 180);
+}
+
+.chocolateLink,.figLink,.chickenLink {
+    color: white;
+}
+
+.chickenImageBox {
+    border: 2px solid orange;
+    float: left;
+    margin-left: 10px;
+    margin-left: 10vw;
+}
+
+.chickenTitleBox {
+    float: left;
+} 
+
+.chickenContent {
+    /* border: 2px solid purple; */
+    clear: both;
+    padding: 10px;
+}
+
