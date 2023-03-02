@@ -1,0 +1,26 @@
+/* All generic styling */
+
+body {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: rgb(121, 0, 0);
+    
+}
+
+/* Specific attributes */
+
+.figBody {
+    background-color:slategrey;
+    color: black;
+}
+
+.chocolateLink,.figLink,.chickenLink {
+    color: white;
+}
