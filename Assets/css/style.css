@@ -41,6 +41,21 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     flex: 2;
+    /* border: 2px solid salmon; */
+}
+
+.menu {
+    position: relative;
+    bottom: 18px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu li:last-of-type {
+    margin-right: 0;
 }
 
 .login {
@@ -106,11 +121,6 @@ a:hover {
 .page {
     width: 900px;
     margin: 0 auto;
-}
-
-.menu {
-    height: 100px;
-    background-color: #B2D6FF;    /* Medium blue */
 }
   
 .sidebar {
