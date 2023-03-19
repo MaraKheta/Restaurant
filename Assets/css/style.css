@@ -11,7 +11,7 @@ a {
 
 a:hover {
     color: rgb(121, 0, 0);
-    
+    text-decoration: underline;
 }
 
 /* Specific attributes */
@@ -61,6 +61,40 @@ a:hover {
 .login {
     margin-left: 20px;
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown span {
+    cursor: pointer;
+}
+
+.features-menu {
+    display: none;
+}
+.dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding-top: 60px;
+
+    position: absolute;
+    top: -25px;
+    left: -30px;
+}
+
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+    
+    padding: 0 40px 10px 20px;
+    margin: 10px;
+}
+
+.features-menu li:last-of-type {
+    border-bottom: none;
+  }
 
 /* Image Section */
 .home-banner {
